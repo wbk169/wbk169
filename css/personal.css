@@ -1,0 +1,411 @@
+.img-fluid {
+  width: 20% ;
+  
+   }
+.img-fluid-person {
+
+
+  width: 80% ;  
+     }   
+
+.person {
+   margin-top: 100px !important ;
+      }
+
+.img-bk{
+  width:250px !important;
+ 
+  transition: 0.5s;
+  
+}
+.img-bk:hover
+{
+  border-radius: 50%;
+}
+
+ .titleword
+ {
+   margin-top: 10px;
+  font-style: italic;
+
+ }
+ .titleword:hover
+ {
+   margin-top: 10px;
+  font-style: italic;
+  text-shadow: 0.1em 0.1em 0.2em gray;
+ }
+
+ .person-logo { 
+ 
+  opacity: 0.65;
+  transition : 0.5s;
+  float: left ;
+  width: 20%;
+  margin-left: 3%;
+  }
+  
+.person-logo:hover{
+  opacity:  1;
+
+}  
+
+
+.nav-link {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.card {
+  margin-bottom: 40px;
+  background-color: darkgray;
+}
+
+
+.word{
+font-size: 25px;
+}
+.word1{
+  font-size: 26px;
+ font-family:serif,sans-serif,Microsoft JhengHei,fantasy,monospace;
+}
+
+.word:hover{
+  
+  font-size: 40px;
+  }
+.nav-link {
+  color: black;
+  font-weight: bold;
+}
+
+.personalImg {
+  text-align: center;
+}
+
+.offcanvas-body {
+  text-align: center;
+}
+
+.col {
+  text-align: center;
+  transition: 1s ease;
+}
+
+.col:hover {
+  background-color: rgb(87, 85, 85);
+  color: white;
+  margin-top: 10px;
+}
+
+.col-skill {
+  text-align: center;
+  transition :0.5s;
+  opacity: 0.8;
+}
+
+.col-skill:hover {
+  
+  background-color: rgb(246, 252, 129);
+  border-radius :35%;
+ 
+}
+
+.picture-ly
+{
+  width:100%;
+  object-fit: cover;
+}
+.picture-ly:hover
+{
+  width:100%;
+  object-fit: cover;
+}
+
+.info{
+  width: 100%;
+  height: 100%;
+  top: 0px;
+  left: 0px;
+  justify-content: center;
+  display :flex;
+  opacity: 0;
+  font-size: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+
+}
+.info:hover
+{
+  opacity: 0.8;
+  background-color: rgb(87, 85, 85);
+   
+}
+.col-picture {
+  text-align: center;
+  opacity: 1 !;
+}
+.col-picture:hover {
+  padding-top: 500px;
+  opacity: 0 !important;
+  background-color: rgba(255, 255, 255, 0.65);
+  color: white;
+  width: 100%;
+  height: 100%;
+  top: 0px;
+  left: 0px;
+  border-radius: 20px;
+  
+}
+
+.studyimg {
+  border-radius: 50%;
+}
+
+.educationtext {
+  font-weight: bold;
+  margin-top: 50px;
+}
+body{
+  background-image: url(../image/bg.png);
+
+}
+.background {
+  width: 100%;
+  background-image: url(../image/bg.png);
+  
+}
+
+.background2 {
+  width: 100%;
+  border: 10px double black;
+}
+.bgx{
+margin-left: 10%;  
+}
+
+.study {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+
+@keyframes skillhtml {
+  from {
+    width: 10%;
+  }
+
+  to {
+    width: 80%;
+  }
+}
+
+@keyframes skillms {
+  from {
+    width: 10%;
+  }
+
+  to {
+    width: 95%;
+  }
+}
+
+@keyframes skillps {
+  from {
+    width: 10%;
+  }
+
+  to {
+    width: 75%;
+  }
+}
+
+@keyframes skillae {
+  from {
+    width: 10%;
+  }
+
+  to {
+    width: 70%;
+  }
+}
+
+.Extext {
+  position: relative;
+  margin-top: 30px;
+  font-size: 30px;
+  font-weight: 900;
+}
+
+.containerA {
+  width: 60%;
+  background-color: gray;
+  color: white;
+  font-weight: 900;
+  font-size: 20px;
+  border-radius: 20px;
+  position: relative;
+  left: 15%;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 5%;
+  margin-left: 15px;
+}
+
+.skill {
+  text-align: center;
+  background-color: black;
+  position: relative;
+  border-radius: 20px;
+  margin-bottom: 5%;
+
+}
+
+#html {
+  width: 80%;
+  animation-name: skillhtml;
+  animation-duration: 2s;
+  animation-iteration-count: 1;
+}
+
+#ms {
+  width: 95%;
+  animation-name: skillms;
+  animation-duration: 2s;
+  animation-iteration-count: 1;
+}
+
+#ps {
+  width: 75%;
+  animation-name: skillps;
+  animation-duration: 2s;
+  animation-iteration-count: 1;
+}
+
+#ae {
+  width: 70%;
+  animation-name: skillae;
+  animation-duration: 2s;
+  animation-iteration-count: 1;
+}
+
+
+
+
+.Programming {
+  background-color: black;
+  position: relative;
+  border-radius: 20px;
+  margin-bottom: 5%;
+}
+
+@keyframes skilljava {
+  from {
+    width: 10%;
+  }
+
+  to {
+    width: 80%;
+  }
+}
+
+@keyframes skillc {
+  from {
+    width: 10%;
+  }
+
+  to {
+    width: 70%;
+  }
+}
+
+@keyframes skillpython {
+  from {
+    width: 10%;
+  }
+
+  to {
+    width: 75%;
+  }
+}
+
+@keyframes skillSQL {
+  from {
+    width: 10%;
+  }
+
+  to {
+    width: 65%;
+  }
+}
+
+#java {
+  width: 80%;
+  animation-name: skilljava;
+  animation-duration: 2s;
+  animation-iteration-count: 1;
+}
+
+#c {
+  width: 70%;
+  animation-name: skillc;
+  animation-duration: 2s;
+  animation-iteration-count: 1;
+}
+
+#python {
+  width: 75%;
+  animation-name: skillpython;
+  animation-duration: 2s;
+  animation-iteration-count: 1;
+}
+
+#SQL {
+  width: 65%;
+  animation-name: skillSQL;
+  animation-duration: 2s;
+  animation-iteration-count: 1;
+}
+
+#v-pills-home{
+  position: relative;
+  top : 240px;
+  left: 200px;
+  font-size: 24px;
+}
+.professionimg {
+  margin-top: 30px;
+}
+
+.licensetitle {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+#v-pills-profile{
+  position: relative;
+  top : 240px;
+  left: 200px;
+  font-size: 24px;
+}
+#v-pills-message{
+  position: relative;
+  top : 240px;
+  left: 200px;
+  font-size: 24px;
+}
+#v-pills-settings{
+  position: relative;
+  top : 240px;
+  left: 200px;
+  font-size: 24px;
+}
+.v-pills-photo-position{
+  position: relative;
+  width : 1000px;
+  left : 500px;
+  top : -100px;
+}

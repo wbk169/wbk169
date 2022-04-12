@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous">
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+      integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+      crossorigin="anonymous"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+      integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+      crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./css/personal.css">
+    <title>個人履歷表</title>
+  </head>
+
+  <body>
+    <div class="container-fluid">
+      <!-- 導航列 -->
+      <nav class="navbar navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><b>個人履歷表</b></a>
+
+          <nav>
+            <div class="nav nav-tabs" id="nav-tab" role="tablist">
+              <button class="nav-link active" id="nav-education-tab"
+                data-bs-toggle="tab" data-bs-target="#nav-education"
+                type="button" role="tab" aria-controls="nav-education"
+                aria-selected="true">學歷</button>
+              <button class="nav-link" id="nav-profession-tab"
+                data-bs-toggle="tab" data-bs-target="#nav-profession"
+                type="button" role="tab" aria-controls="nav-profession"
+                aria-selected="false">專業能力</button>
+              <button class="nav-link" id="nav-work-tab" data-bs-toggle="tab"
+                data-bs-target="#nav-work" type="button"
+                role="tab" aria-controls="nav-work" aria-selected="false">工作經歷/社團經歷</button>
+              <button class="nav-link" id="nav-University-tab"
+                data-bs-toggle="tab" data-bs-target="#nav-University"
+                type="button" role="tab" aria-controls="nav-University"
+                aria-selected="false">大學經歷</button>
+              <button class="nav-link" id="nav-license-tab" data-bs-toggle="tab"
+                data-bs-target="#nav-license"
+                type="button" role="tab" aria-controls="nav-license"
+                aria-selected="false">證照持有</button>
+            </div>
+          </nav>
+          <button  style="width:120px;height:40px;border:3px orange double;" class="navbar-toggler" type="button"
+            data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBackdrop"
+            aria-controls="offcanvasWithBackdrop"><span
+              class="navbar-toggler-icon"></span></button>
+        </div>
+      </nav>
+
+      <!-- 側邊攔 -->
+      <div class="offcanvas offcanvas-start" tabindex="-1"
+        id="offcanvasWithBackdrop"
+        aria-labelledby="offcanvasWithBackdropLabel">
+        <div class="offcanvas-header">
+          <!-- 個人資料 -->
+          <h3 class="offcanvas-title"></h3>
+          <button type="button" class="btn-close text-reset"
+            data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          <h3 class="offcanvas-title" id="offcanvasWithBackdropLabel"><b>個人資料</b></h3>
+          <!-- 照片 -->
+          <div class="personalImg">
+            <figure class="figure">
+              <img src="./image/bokai.png" width="250px" class="img-bk">
+            </figure>
+
+            <!-- 自我介紹 -->
+            <h3 class="offcanvas-title"><b>中原大學</b></h3>
+            <h3 class="offcanvas-title"><b>資訊管理系</b></h3>
+            <h3 class="offcanvas-title"><b>王柏凱</b></h3>
+            <h4 class="titleword"><b>別在該努力的時候選擇安逸</b></h3>
+            <div class="person">
+              <a href="https://www.facebook.com/profile.php?id=100013502199903"
+                target="blank">
+                <div class="person-logo"><img src="image/facebook.png"
+                    class="img-fluid-person" id="facebook"></div>
+              </a>
+              <a href="https://www.instagram.com/bbbbkk_w/" target="blank">
+                <div class="person-logo"><img src="image/ig.png" id="ig"
+                    class="img-fluid-person"></div>
+              </a>
+              <a href="https://github.com/wbk169" target="blank">
+                <div class="person-logo"> <img src="image/github.png" id="git"
+                    class="img-fluid-person"></div>
+              </a>
+              <a href="mailto:hn4507@gmail.com">
+                <div class="person-logo"><img src="image/gmail.png" id="gmail"
+                    class="img-fluid-person"></div>
+              </a>
+            </div>
+          </div>
+
+
+        </div>
+      </div>
+
+      <div class="tab-content" id="nav-tabContent">
+        <div class="tab-pane fade show active" id="nav-education"
+          role="tabpanel" aria-labelledby="nav-education-tab">
+          <div class="background">
+            <div class="container">
+              <div class="container">
+                <div class="row">
+                  <div class="col">
+                    <h1 class="educationtext">南勢國小</h1>
+                    <figure class="figure">
+                      <img src="./image/school.png" width="250px"
+                        class="studyimg">
+                    </figure>
+                    <h1 class="study">2007</h1>
+                  </div>
+
+                  <div class="col">
+                    <h1 class="educationtext">平南國中</h1>
+                    <figure class="figure">
+                      <img src="./image/school2.png" width="250px"
+                        class="studyimg">
+                    </figure>
+                    <h1 class="study">2013</h1>
+                  </div>
+                  <div class="col">
+                    <h1 class="educationtext">中壢高商</h1>
+                    <figure class="figure">
+                      <img src="./image/school3.png" width="250px"
+                        class="studyimg">
+                    </figure>
+                    <h1 class="study">2016</h1>
+                  </div>
+                  <div class="col">
+                    <h1 class="educationtext">中原大學</h1>
+                    <figure class="figure">
+                      <img src="./image/school4.png" width="250px"
+                        class="studyimg">
+                    </figure>
+                    <h1 class="study">2019-至今</h1>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="tab-pane fade" id="nav-profession" role="tabpanel"
+          aria-labelledby="nav-profession-tab">
+          <div class="background2">
+            <div class="container">
+              <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4">
+                <div class="col-skill">
+                  <div class="professionimg">
+                    <figure class="figure">
+                      <img src="./image/html.png" class="figure-img img-fluid
+                        rounded" alt="...">
+                    </figure>
+                  </div>
+                  <p class="Extext">HTML</p>
+                  <div class="containerA">
+                    <div class="skill" id="html">80%</div>
+                  </div>
+                </div>
+                <div class="col-skill">
+                  <div class="professionimg">
+                    <figure class="figure">
+
+                      <img src="./image/microsoft.png" class="figure-img
+                        img-fluid rounded" alt="...">
+                    </figure>
+                  </div>
+                  <p class="Extext">文書處理</p>
+                  <div class="containerA">
+                    <div class="skill" id="ms">95%</div>
+                  </div>
+                </div>
+                <div class="col-skill">
+                  <div class="professionimg">
+                    <figure class="figure">
+                      <img src="./image/ps.png" class="figure-img img-fluid
+                        rounded" alt="...">
+                    </figure>
+                  </div>
+                  <p class="Extext">PS</p>
+                  <div class="containerA">
+                    <div class="skill" id="ps">75%</div>
+                  </div>
+                </div>
+
+                <div class="col-skill">
+                  <div class="professionimg">
+                    <figure class="figure">
+                      <img src="./image/after-effects.png" class="figure-img
+                        img-fluid rounded" alt="...">
+                    </figure>
+                  </div>
+                  <p class="Extext">影片剪輯</p>
+                  <div class="containerA">
+                    <div class="skill" id="ae">70%</div>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+
+            <div class="container">
+              <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4">
+                <div class="col-skill">
+                  <div class="professionimg"> <img src="./image/java.png"
+                      class="figure-img img-fluid
+                      rounded" alt="..."></div>
+                  <p class="Extext">Java</p>
+                  <div class="containerA">
+                    <div class="Programming" id="java">
+                      80%
+                    </div>
+                  </div>
+                </div>
+                <div class="col-skill">
+                  <div class="professionimg"> <img src="./image/c-sharp.png"
+                      class="figure-img img-fluid
+                      rounded" alt="..."></div>
+                  <p class="Extext">C#</p>
+                  <div class="containerA">
+                    <div class="Programming" id="c">
+                      70%
+                    </div>
+                  </div>
+                </div>
+                <div class="col-skill">
+                  <div class="professionimg"> <img src="./image/python.png"
+                      class="figure-img img-fluid
+                      rounded" alt="..."></div>
+                  <p class="Extext">Python</p>
+                  <div class="containerA">
+                    <div class="Programming" id="python">
+                      75%
+                    </div>
+                  </div>
+                </div>
+                <div class="col-skill">
+                  <div class="professionimg"> <img
+                      src="./image/query-analysis.png" class="figure-img
+                      img-fluid rounded" alt="..."></div>
+                  <p class="Extext">SQL</p>
+                  <div class="containerA">
+                    <div class="Programming" id="SQL">
+                      65%
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="tab-pane fade" id="nav-work" role="tabpanel"
+          aria-labelledby="nav-work-tab">
+          <div class="background2">
+            <div >
+            <div class="d-flex align-items-start">
+              <div class="accordion" id="accordionExample">
+                <div class="accordion-item">
+                  <h2 style ="width: 100%;" class="accordion-header" id="headingOne">
+                    <button class="accordion-button" type="button"
+                      data-bs-toggle="collapse" data-bs-target="#collapseOne"
+                      aria-expanded="true" aria-controls="collapseOne">
+                      7-Eleven
+                    </button>
+                  </h2>
+                  <div id="collapseOne" class="accordion-collapse collapse show"
+                    aria-labelledby="headingOne"
+                    data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      <span class="word1"><strong>第一份工作!</strong>
+                        7-Eleven是我第一份工作，當初覺得去7-Eleven上班能學到不少東西，例如與人對談、一心兩用等等的技巧，而一眨眼就在超商待了快兩年，現在想一想才發現這些技巧都漸漸變成我自身的經驗了。</span><img
+                        src="./image/7-11.png">
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 style="width:100%"class="accordion-header" id="headingTwo">
+                    <button class="accordion-button collapsed" type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapseTwo" aria-expanded="false"
+                      aria-controls="collapseTwo">
+                      中原大學教務處
+                    </button>
+                  </h2>
+                  <div id="collapseTwo" class="accordion-collapse collapse"
+                    aria-labelledby="headingTwo"
+                    data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      <span class="word1"><strong>這是我第二份工作</strong>
+                        ，目前在教務處負責接聽老師、學生、家長等等的電話，並且引導到相關的處理人員，因為在7-11工作過，所以在通話上流利度是很流暢的，只不過面對新的事物，一開始沒辦法得心應手，但又能繼續培養新的技能。</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 style="width:100%" class="accordion-header" id="headingThree">
+                    <button class="accordion-button collapsed" type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapseThree" aria-expanded="false"
+                      aria-controls="collapseThree">
+                      中原大學電競社
+                    </button>
+                  </h2>
+                  <div id="collapseThree" class="accordion-collapse collapse"
+                    aria-labelledby="headingThree"
+                    data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      <span class="word1"><strong>大學參加的社團</strong>
+                        這社團是朋友介紹許多次，我誤打誤撞就進了此社團，平時除了能跟其他社員一起玩遊戲！有時還會辦一些小活動，例如線上小遊戲，但最棒的還是第一次的校園電競比賽，就獲得了第一名！</span>
+                      <img src="./image/game.png">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            </div>
+
+
+          </div>
+        </div>
+
+        <div class="tab-pane fade" id="nav-University" role="tabpanel"
+          aria-labelledby="nav-University-tab">
+          <div class="background">
+            <div class="container">
+              <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4">
+                <div class="col">
+                  <h1>一上</h1>
+                  <div class="card">
+                    <div class="col-picture"><img src="./image/1up.jpg"
+                        class="card-img-top" alt="..."></div>
+                    <div class="card-body">
+                      <p class="info">對於剛上大學的我來說,管理學這門課非常特別,以小組方式進行,從致電、接治、到實際的參訪都是組內自行運作,也讓我知道小組內合作的重要性,以及面對其他單位所需的基本流程。
+                      </p>
+                      <p class="card-text"><strong>管理學</strong></p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <h1>一下</h1>
+                  <div class="card">
+                    <img src="./image/1down.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <p class="info">企業概論是從做中學的課程，進貨、販售、宣傳等，皆須自行實作，販賣的產品也結合了公益，讓我們在學習中也能做公益，對社會盡一份心力。</p>
+                      <p class="card-text">企業概論</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <h1>二上</h1>
+                  <div class="card">
+                    <img src="./image/2up.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <p class="info">我們的網站主題是販售公仔模型。後端主要的工作是利用jsp和MySQL資料庫在購物網站加上一些功能，第一次接觸到後端程式，學的過程慘不忍睹，但完成後的作品卻很有成就感!
+                      </p>
+                      <p class="card-text">網路程式設計</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <h1>二下</h1>
+                  <div class="card">
+                    <img src="./image/game.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <p class="info">社團第一次比賽就獲得了冠軍，一路下來和隊友的練習，還有一起比賽的緊張感，都有很棒的回憶。</p>
+                      <p class="card-text">中原大學電競社</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+        <div class="tab-pane fade" id="nav-license" role="tabpanel"
+          aria-labelledby="nav-license-tab">
+          <div class="background">
+            <div class="container">
+              <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3">
+
+                <div class="col">
+                  <h1 class="licensetitle">TQC證照</h1>
+                  <figure class="figure">
+
+                    <div class="picture-ly"><img src="./image/ly4.jpg"
+                        class="picture-ly" alt="...">
+                    </div>
+                  </figure>
+                </div>
+
+                <div class="col">
+                  <h1 class="licensetitle">中華民國技術士證照</h1>
+                  <figure class="figure">
+                    <img src="./image/ly2.jpg" class="picture-ly" alt="...">
+                  </figure>
+                </div>
+                <div class="col">
+                  <h1 class="licensetitle">心肺復甦合格證照</h1>
+                  <figure class="figure">
+                    <div class="picture-ly"><img src="./image/ly1.jpg"
+                        class="picture-ly" alt="...">
+                    </div>
+                  </figure>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </body>
+
+</html>
